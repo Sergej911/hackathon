@@ -107,6 +107,32 @@
 
 /* Adaptive */
 
+@media screen and (max-width: 1175px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .logo {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 524px) {
+    .date {
+        font-size: 26px;
+    }
+
+    .header-title {
+        font-size: 42px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .container {
         padding: 0 15px;

@@ -167,6 +167,58 @@ import AppResults from "./AppResults.vue";
 }
 
 /* Adaptive */
+@media screen and (max-width: 1175px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    .section-descr {
+        max-width: 60%;
+        font-size: 22px;
+    }
+
+    .cases-head {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cases-head {
+        flex-direction: column;
+    }
+
+    .section-descr {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .case-top {
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .case-top li {
+        font-size: 18px;
+    }
+
+    .cases-descr {
+        font-size: 20px;
+    }
+
+    .cases-title {
+        font-size: 22px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .container {

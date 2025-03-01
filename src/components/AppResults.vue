@@ -164,6 +164,34 @@ const formatNumber = (number) => {
 }
 
 /* Adaptive */
+@media screen and (max-width: 778px) {
+    .results-title {
+        font-size: 28px;
+    }
+
+    .results-item {
+        flex-direction: column;
+    }
+
+    .results-descr {
+        font-size: 22px;
+    }
+
+    .btn {
+        padding: 8px 22px;
+        font-size: 22px;
+    }
+
+    .number {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .title {
+        font-size: 32px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .container {

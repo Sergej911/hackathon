@@ -80,6 +80,11 @@ a:active {
 }
 
 /* Adaptive */
+@media screen and (max-width: 1175px) {
+    .container {
+        padding: 0 15px;
+    }
+}
 
 @media screen and (max-width: 480px) {
     .container {
