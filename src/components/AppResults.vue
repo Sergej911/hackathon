@@ -175,7 +175,7 @@ const formatNumber = (number) => {
     }
 
     .results-item {
-        padding: 20px 15px;
+        padding: 20px 0;
         flex-direction: column;
     }
 
