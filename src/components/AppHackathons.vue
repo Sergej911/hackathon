@@ -20,7 +20,7 @@
                                 15-17<br> июня
                             </span>
                             <a href="#">
-                                <img src="/Button arrow.svg" alt="ссылка">
+                                <img class="link-img" src="/Button arrow.svg" alt="ссылка">
                             </a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                                 22-24<br> сентября
                             </span>
                             <a href="#">
-                                <img src="/Button arrow.svg" alt="ссылка">
+                                <img class="link-img" src="/Button arrow.svg" alt="ссылка">
                             </a>
                         </div>
                     </div>
@@ -147,6 +147,18 @@
     font-weight: 400;
     line-height: 46.8px;
     color: #F9FAF9;
+}
+
+.link-img {
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+.link-img:hover {
+    /* transform: scale(1.1); */
+    transform: translate(0, -5px);
+    cursor: pointer;
+    box-shadow: 0 5px 10px #262626;
 }
 
 .item-bottom {
