@@ -223,6 +223,16 @@
         flex-direction: column;
     }
 
+    .item-card {
+        padding: 18px 14px;
+    }
+
+    .top-list {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+
     .top {
         margin-top: 40px;
     }
