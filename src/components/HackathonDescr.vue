@@ -54,4 +54,10 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .descr {
+        font-size: 16px;
+    }
+}
 </style>

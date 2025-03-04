@@ -371,4 +371,19 @@
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .section-descr {
+        margin-bottom: 24px;
+        font-size: 18px;
+    }
+
+    .info-descr {
+        font-size: 18px;
+    }
+}
 </style>

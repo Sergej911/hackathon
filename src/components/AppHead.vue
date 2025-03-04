@@ -151,4 +151,19 @@
         font-size: 32px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .about-list {
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+
+    .quantity {
+        flex-wrap: wrap;
+    }
+
+    .header-title {
+        font-size: 28px;
+    }
+}
 </style>

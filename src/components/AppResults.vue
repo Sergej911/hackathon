@@ -232,4 +232,27 @@ const formatNumber = (number) => {
         font-size: 20px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .number {
+        font-size: 26px;
+    }
+
+    .results-descr {
+        font-size: 18px;
+    }
+
+    .results-buttons {
+        column-gap: 12px;
+    }
+
+    .btn {
+        padding: 4px 15px;
+        font-size: 16px;
+    }
+}
 </style>
